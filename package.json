@@ -1,0 +1,17 @@
+{
+  "name": "happy_birthday",
+  "scripts": {
+    "dev": "live-server --port=4000"
+  },
+  "devDependencies": {
+    "husky": ">=6",
+    "lint-staged": ">=10",
+    "live-server": "^1.2.2",
+    "prettier": "^2.8.8"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write"
+    ]
+  }
+}
