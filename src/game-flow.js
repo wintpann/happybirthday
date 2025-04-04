@@ -136,7 +136,7 @@ export class GameFlow {
                 description: 'Заказать пиццу',
                 callback: () => {
                   notify(
-                    'Упс, телефон срочной доставки пиццы где то потерялся.. Нужно найти',
+                    'Упс, телефон срочной доставки пиццы где то потерялся.. Вроде он был в библиотеке.. Нужно найти',
                   );
                   this.iuScene.phone.updateInteraction([]);
                   this.iuScene.updateHUD();
