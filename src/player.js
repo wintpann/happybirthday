@@ -24,13 +24,13 @@ export class Player extends Element {
     this.animation = animation;
   }
 
-  moveLeft(delta = -5) {
+  moveLeft(delta = -1) {
     this.updateXByDelta(delta);
     this.animation.next('movingLeft');
     this.update(this.animation.current);
   }
 
-  moveRight(delta = 5) {
+  moveRight(delta = 1) {
     this.updateXByDelta(delta);
     this.animation.next('movingRight');
     this.update(this.animation.current);
