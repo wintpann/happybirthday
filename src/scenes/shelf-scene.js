@@ -11,15 +11,16 @@ export class ShelfScene extends WalkScene {
       }),
       sceneName: 'Книжная полка',
       audio: '../audio/shelf.mp3',
+      initialPlayerX: 4,
     });
 
     this.docs1 = new BookElement({ x: 20, name: 'Документация #1' });
-    this.docs2 = new BookElement({ x: 100, name: 'Документация #2' });
-    this.docs3 = new BookElement({ x: 180, name: 'Документация #3' });
-    this.docs4 = new BookElement({ x: 260, name: 'Документация #4' });
-    this.docs5 = new BookElement({ x: -100, name: 'Документация #5' });
-    this.docs6 = new BookElement({ x: -200, name: 'Документация #6' });
-    this.handbook = new BookElement({ x: -300, name: 'Тел. справочник' });
+    this.docs2 = new BookElement({ x: 80, name: 'Документация #2' });
+    this.docs3 = new BookElement({ x: 140, name: 'Документация #3' });
+    this.docs4 = new BookElement({ x: 200, name: 'Документация #4' });
+    this.docs5 = new BookElement({ x: -50, name: 'Документация #5' });
+    this.docs6 = new BookElement({ x: -100, name: 'Документация #6' });
+    this.handbook = new BookElement({ x: -150, name: 'Тел. справочник' });
     this.backPass = new PassElement({
       x: 0,
       description: 'Выход',
