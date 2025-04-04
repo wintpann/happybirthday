@@ -184,6 +184,7 @@ export class GameFlow {
       })
       .then(() => {
         this.cityScene.removeCourier();
+        this.cityScene.updateHUD();
         notify(
           'Задание 8 выполнено: забрать пиццу. Девопсы довольны а значит можно снова приступать к работе',
         );
