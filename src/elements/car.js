@@ -1,6 +1,6 @@
 import { Element } from '../element.js';
 
-export class BigBearElement extends Element {
+export class CarElement extends Element {
   /**
    * @param {Object} params
    * @param {number} params.x
@@ -11,14 +11,14 @@ export class BigBearElement extends Element {
   constructor(params) {
     super({
       body: [
-        '   ..------~~~--.__',
-        '  /               c~\\',
-        '  /             \\__ `\\',
-        "  |  /~~--__/  /'\\ ~~'",
-        " /'/'\\ |    | |`\\ \\_",
-        '`-))  `-))  `-)) `-))',
+        '        _______',
+        '       //  ||\\ \\',
+        ' _____//___||_\\ \\___',
+        ' )  _          _    \\',
+        ' |_/ \\________/ \\___|',
+        '   \\_/        \\_/',
       ],
-      description: 'Большой мишка',
+      description: 'Машина',
       ...params,
     });
   }

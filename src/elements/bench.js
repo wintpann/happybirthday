@@ -1,6 +1,6 @@
 import { Element } from '../element.js';
 
-export class CockElement extends Element {
+export class BenchElement extends Element {
   /**
    * @param {Object} params
    * @param {number} params.x
@@ -10,8 +10,14 @@ export class CockElement extends Element {
    */
   constructor(params) {
     super({
-      body: ['   \\\\', '   (o>', '\\\\_//)', ' \\_/_)', '  _|_'],
-      description: 'Петушок',
+      body: [
+        '  ___________________________',
+        ' |__:_____________________:__|',
+        '   |_|___________________|_|',
+        '  /__.___________________.__\\',
+        '   |_|                   |_|',
+      ],
+      description: 'Лавочка',
       ...params,
     });
   }

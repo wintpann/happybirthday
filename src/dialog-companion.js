@@ -1,3 +1,6 @@
 export const DialogCompanion = {
-  Sereja: 'Sereja',
+  Managers: 'Managers',
+  Frontend: 'Frontend',
+  Backend: 'Backend',
+  Devops: 'Devops',
 };

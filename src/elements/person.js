@@ -10,7 +10,12 @@ export class PersonElement extends Element {
    */
   constructor(params) {
     super({
-      body: [' o ', '/|\\', ' | ', '/ \\'],
+      body: [
+        ' о',
+        '/|\\',
+        ' |\\',
+        ' |/',
+      ],
       description: 'Человек',
       ...params,
     });

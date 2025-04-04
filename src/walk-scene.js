@@ -95,6 +95,7 @@ export class WalkScene extends BaseScene {
     this.hud.updateColumns(
       [
         sceneTitle,
+        HUDElement.EmptyColumn,
         this.intersectionElement.description,
         ...intersectionElementInteractions,
       ].filter(Boolean),

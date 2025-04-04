@@ -1,3 +1,6 @@
-const notify = new Notyf({ ripple: false, duration: 15000 });
+const n = new Notyf({ ripple: false, duration: 30000 });
 
-export const success = (message) => notify.success(message);
+export const notify = (message) => {
+  n.dismissAll();
+  setTimeout(() => n.success(message), 500);
+};

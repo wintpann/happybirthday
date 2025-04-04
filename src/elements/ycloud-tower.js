@@ -1,6 +1,6 @@
 import { Element } from '../element.js';
 
-export class DuckElement extends Element {
+export class YCloudTower extends Element {
   /**
    * @param {Object} params
    * @param {number} params.x
@@ -10,8 +10,17 @@ export class DuckElement extends Element {
    */
   constructor(params) {
     super({
-      body: ['  __', ">(' )", '  )/', ' /(', '/  `----/', '\\  ~=- /'],
-      description: 'Уточка',
+      body: [
+        '    \\ | /',
+        '    - * -',
+        '     /|\\',
+        '    /\\|/\\',
+        '   /  |  \\',
+        '  /\\/\\|/\\/\\',
+        ' /    |    \\',
+        '-     -     -',
+      ],
+      description: 'Священная вышка связи с саппортом YandexCloud',
       ...params,
     });
   }

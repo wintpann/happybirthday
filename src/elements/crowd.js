@@ -1,6 +1,6 @@
 import { Element } from '../element.js';
 
-export class BatElement extends Element {
+export class CrowdElement extends Element {
   /**
    * @param {Object} params
    * @param {number} params.x
@@ -11,12 +11,12 @@ export class BatElement extends Element {
   constructor(params) {
     super({
       body: [
-        ' =,    (\\_/)    ,=',
-        "  /`-'--(\")--'-'\\",
-        ' /     (___)     \\',
-        '/.-.-./ " " \\.-.-.\\',
+       ' о \\_о_/\\о__',
+       '/|\\  [] #|',
+       ' |\\  //  |\\',
+       ' |/  \\\\ / /',
       ],
-      description: 'Летучая мышь',
+      description: 'Группа людей',
       ...params,
     });
   }

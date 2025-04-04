@@ -1,6 +1,6 @@
 import { Element } from '../element.js';
 
-export class BigCockElement extends Element {
+export class PhoneElement extends Element {
   /**
    * @param {Object} params
    * @param {number} params.x
@@ -11,15 +11,11 @@ export class BigCockElement extends Element {
   constructor(params) {
     super({
       body: [
-        "          /')",
-        "  ////  /' )'",
-        " @   \\/'  )'",
-        "< (  (_...)'",
-        '  \\      )',
-        '   \\,,,,/',
-        '     _|_',
+        ' _-----_',
+        '(_/   \\_)',
+        ' (_____) \\/\\/\\___',
       ],
-      description: 'Петушара',
+      description: 'Телефон',
       ...params,
     });
   }

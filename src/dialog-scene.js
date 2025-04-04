@@ -11,10 +11,10 @@ export class DialogScene extends BaseScene {
 
   dialogs = {
     byCompanion: {
-      [DialogCompanion.Sereja]: {
-        questions: [],
-        answer: null,
-      },
+      [DialogCompanion.Managers]: { questions: [], answer: null },
+      [DialogCompanion.Backend]: { questions: [], answer: null },
+      [DialogCompanion.Frontend]: { questions: [], answer: null },
+      [DialogCompanion.Devops]: { questions: [], answer: null },
     },
     activeCompanion: null,
     caret: 0,

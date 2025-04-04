@@ -1,4 +1,5 @@
 import { RENDER_WINDOW, SYMBOL } from './constants.js';
+import {renderer} from "./renderer.js";
 
 export class BaseScene {
   renderElements = new Set();
@@ -11,10 +12,12 @@ export class BaseScene {
     for (const element of elements) {
       this.renderElements.add(element);
     }
+    renderer.render();
   }
 
   removeFromRender(element) {
     this.renderElements.delete(element);
+    renderer.render();
   }
 
   buildRenderGrid() {
